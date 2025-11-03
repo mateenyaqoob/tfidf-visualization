@@ -6,26 +6,9 @@ This repository demonstrates how to extract, analyze, and visualize TF–IDF fea
 Visualization helps interpret important terms, document similarity, and category-level differences in text data.
 
 
-# Folder Structure
-tfidf-visualization/
-├── data/
-│   └── sample_docs.csv
-├── examples/
-│   ├── wordcloud_viz.py
-│   ├── bar_chart_viz.py
-│   ├── heatmap_viz.py
-│   ├── pca_viz.py
-│   ├── cluster_map_viz.py
-│   └── comparative_viz.py
-├── requirements.txt
-└── README.md
-
 # Installation
 
 Clone or download the repository:
-
-git clone https://github.com/<your-username>/tfidf-visualization.git
-cd tfidf-visualization
 
 
 Set up environment and install dependencies:
@@ -38,13 +21,6 @@ pip install -r requirements.txt
 
 File: data/sample_docs.csv
 
-text,category
-"Machine learning models improve with data","Technology"
-"Deep learning outperforms traditional ML in image tasks","Technology"
-"Economy grows as market stabilizes","Business"
-"Stock prices increase with investor confidence","Business"
-"Healthcare sector adopts AI for diagnosis","Health"
-"New vaccines improve public health outcomes","Health"
 
 # Running the Examples
 
